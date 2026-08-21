@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form - lets learn it</title>
 </head>
 <body>
+
+    <form action="post">
+        <div>
+            <label for="username">username</label>
+            <input type="text" placeholder="Enter Data" id="username">
+        </div>
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" value="female" id="female">
+        </div>
+        <div>
+            <label for="checkbox">checkbox</label>
+            <input type="checkbox" id="checkbox">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" rows="5" cols="50"></textarea>
+        </div>
+        <div>
+            <form action="/submit">
+                <label for="comment">Comment</label>
+                <br>
+                <textarea name="comment" id="comment" rows="5" cols="30"></textarea>
+                <br>
+                <select name="Experience" id="experience">
+                    <option value="excelent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                </select>
+            </form>
+        </div>
+    </form>
     
 </body>
 </html>
