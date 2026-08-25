@@ -1,0 +1,12 @@
+#externalcss{
+    background-color: yellow;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: blue;
+}
+ p:first-child{
+    background-color: aqua;
+}

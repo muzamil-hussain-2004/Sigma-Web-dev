@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css specificity</title>
+    <style>
+        /* *{
+            color: yellow;
+        }
+        #color{
+            color: green;
+        }
+        .color{
+            color: pink;
+        }
+        h1{
+            color: orange;
+        } */
+         h1.yellow{
+            color: yellow;
+         }
+         .gray{
+            color: gray;
+         }
+         /* .pink{
+            color: pink !important;
+         } */
+         [data-c=a]{
+         color: blue;
+         }
+         /* h1.gray.yellow[data-a="a"]:hover{
+            color: aqua;
+         } takes more specificity */
+    </style>
+</head>
+<body>
+    
+    <h1 id="color" class="color yellow gray pink" data-a="a">
+    Css specificity
+    </h1>
+
+</body>
+</html>
