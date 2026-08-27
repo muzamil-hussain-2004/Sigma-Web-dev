@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absulute units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid black;
+            margin: 10px;
+            display: inline-block;
+        }
+        .cm{ width: 3cm; height: 2cm; background-color: lightblue;}
+        .mm{ width: 30mm; height: 20mm; background-color: lightgreen;}
+        .in{ width: 2in; height: 1in; background-color: lightcoral;}
+        .pt{ width:100pt; height: 50pt; background-color: gold;}
+        .px{ width: 200px; height: 100px; background-color: violet;}
+
+        
+    </style>
+</head>
+
+<body> 
+ <!-- 
+cm – Centimeters (1 cm = 37.8 px)
+mm – Millimeters (1 mm = 1/10th of 1 cm)
+in – Inches (1 in = 96 px = 2.54 cm)
+pt – Points (1pt = 1/72 in)
+pc – Picas (1pc = 12pt = 1/6 in)
+px – Pixels (1px = 1/96 in) → Most commonly used on screens
+Pixels (px) are most widely used because they directly map to screen dots. -->
+
+<h2>CSS Absulute units</h2>
+
+<div class="box cm">3cm * 2cm </div>
+<div class="box mm">30mm * 20mm</div>
+<div class="box in">2in * 1in</div>
+<div class="box pt">100pt * 50pt</div>
+<div class="box px">200px * 100px</div>
+
+</body>
+
+</html>
