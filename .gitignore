@@ -3,3 +3,6 @@
 
 # Ignore all MP3 audio files
 *.mp3
+# Ignore all png jpg files
+*.png
+*.jpg
